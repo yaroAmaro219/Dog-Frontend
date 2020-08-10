@@ -16,11 +16,43 @@ html {
   text-align: start;
 }
 
+.blurb5 {
+  margin-bottom: 9px;
+}
+
+.blurb4 {
+  width: 80%;
+  margin-top: 0;
+  font-size: 10px;
+}
+
+.name{
+  margin-bottom: 0;
+}
+
+.subtitle { 
+  text-transform: uppercase;
+}
+
+.sub-name {
+  margin-top: 3px;
+}
+
+.blurb3 {
+margin-top: 0;
+width: 80%;
+}
+
 
 .contact {
   background-color: black;
   padding: 36px 18px;
   color: white;
+}
+
+.blurb2 {
+  width: 80%;
+  text-align: justify;
 }
 
 .social-container {
@@ -32,7 +64,6 @@ html {
   background-color: #3367FF;
   font-size: x-large;
   color: white;
-  margin-top: 36px;
   position: absolute;
 }
 
@@ -126,7 +157,7 @@ html {
 
   .second {
     width: 100%;
-    padding: 54px 27px !important;
+    padding: 18px !important;
   }
 
   .enroll-button-container {
@@ -199,7 +230,8 @@ html {
   padding: 36px 270px;
   align-items: flex-start;
   text-align: start;
-  
+  background-color: black;
+  color: white;
 }
 
 .phone {
@@ -309,16 +341,24 @@ h1 {
   overflow: hidden;
 }
 
+.sub-sub-title {
+  color: white;
+  width: 80%;
+}
+
 a {
   text-decoration: none;
 }
 
 .second {
-  /* display:flex; */
-  background-color: black;
+  width: 100%;
+  display:flex;
+  flex-wrap: wrap;
+  background-color: #3367FF;
   color: white;
-  padding: 54px 270px;
+  padding: 9px;
   text-align: start;
+  margin-top: 18px;
 }
 
 .second-text-container {

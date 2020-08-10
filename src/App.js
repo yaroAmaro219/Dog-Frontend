@@ -106,8 +106,9 @@ class App extends Component {
         </Switch>
         <div class='contact' id='contact'>
           <h1>Contact</h1>
-          <h1>-</h1>
-        <h1><a class='phone' href='tel:3474006623'>347-400-6623</a></h1>
+          <h2>call</h2>
+          <h1><a class='phone' href='tel:3474006623'>347-400-6623</a></h1>
+          <h2>email</h2>
         <h3><a class='phone' href="mailto:nycdogsitting@gmail.com">NYCdogsitting@gmail.com</a></h3>
         </div>
         <div class='footer'>
